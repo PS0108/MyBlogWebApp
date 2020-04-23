@@ -8,7 +8,7 @@ class BlogTwo extends Component{
         return (
             <div className="column left BlogDiv">
                 <div className="innerrow">
-                    <title><h1><em>How Is Latency Characterized?</em></h1></title>
+                    <h2 class="blogHead"><em>How Is Latency Characterized?</em></h2>
                     <div>
                         <img src={blog2} className="BlogImg" alt="Low Latency Programming" />
                     </div>

@@ -8,7 +8,7 @@ class BlogOne extends Component{
         return (
         <div className="column left BlogDiv">
             <div className="innerrow">
-                <title><h1><em>What Is Latency and Why Is it Important?</em></h1></title>
+                <h2 class="blogHead"><em>What Is Latency and Why Is it Important?</em></h2>
                 <div>
                     <img src={blog1} className="BlogImg" alt="Low Latency Programming" />
                 </div>
