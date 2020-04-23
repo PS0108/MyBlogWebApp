@@ -1,0 +1,79 @@
+
+.column{
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Left and right column */
+.column.right {
+    width: 25%;
+
+}
+.column.left {
+    width: 75%;
+    padding-left: 10px;
+    color: #646568;
+    -webkit-font-smoothing: antialiased;
+    font-size: 16px;
+}
+
+/* Clear floats after the columns */
+
+
+ul.com{
+    list-style: none;
+}
+
+.ul_c{
+    color: #036;
+    font-size: .80em;
+    text-decoration: none;
+}
+
+
+a.ul_c:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    color: #595959;
+}
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+.innercols {
+    float: left;
+    width: 45%;
+    padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.innerrow::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.App-img{
+    width: 100%;
+    height: 150px;
+}
+.BlogImg{
+    width: 100%;
+    height: 250px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.BlogDiv {
+    padding-right: 50px;
+}

@@ -1,0 +1,28 @@
+.News {
+    padding-top: 1px;
+    //background-color: #425159;
+    border-radius: 10px;
+    text-align: left;
+    font-weight: normal;
+}
+
+
+.news_t {
+    width: 300px;
+    padding: 1px;
+    color: #336699;
+
+}
+
+.news_t:nth-child(odd) {
+    //background-color: #bfbfbf;
+}
+.news_t:nth-child(even) {
+    //background-color: #a6a6a6;
+}
+
+.RightNav{
+    color: #036;
+    //font-size: 14px;
+}
+
